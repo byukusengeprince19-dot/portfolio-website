@@ -1,0 +1,97 @@
+ body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #F5F7FA;
+}
+
+/* container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* hero */
+.hero {
+  background: linear-gradient(to right, #0A66C2, #4facfe);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* project cards */
+.project {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+
+.prince {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #0A66C2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.projects-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  border-radius: 10px;
+}
+
+.bar {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.fill {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.html { width: 80%; background: #0A66C2; }
+.css { width: 70%; background: #0A66C2; }
+.js { width: 50%; background: #0A66C2; }
+
+
+.timeline {
+  border-left: 3px solid #0A66C2;
+  padding-left: 15px;
+}
+ 
+   
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
